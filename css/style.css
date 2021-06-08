@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 #main {
@@ -20,7 +20,7 @@
   padding: 2rem 15rem;
 }
 
-figcaption {
+#img-caption {
   padding: 0 15rem;
 }
 
@@ -30,6 +30,4 @@ figcaption {
   flex-direction: column;
 }
 
-p br {
-  padding: 5rem;
-}
+
