@@ -1,14 +1,35 @@
 * {
   box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 #main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgb(216, 213, 213);
+}
+
+#img-div {
+  background-color: white;
 }
 
 #image {
   max-width: fit-content;
   display: block;
+  padding: 2rem 15rem;
+}
+
+figcaption {
+  padding: 0 15rem;
+}
+
+#tribute-info {
+  padding: 2rem 15rem;
+  display: flex;
+  flex-direction: column;
+}
+
+p br {
+  padding: 5rem;
 }
